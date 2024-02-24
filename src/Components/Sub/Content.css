@@ -1,0 +1,237 @@
+.width{
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.width img{
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+.width img:hover{
+    opacity: 0.8;
+    
+}
+.width h1{
+    position: relative;
+    bottom: 150px;
+    margin-left: 400px; 
+    color:rgb(255, 255, 255);
+    
+}
+.width button{
+    bottom: 120px;
+    margin-left: 400px; 
+    color: whitesmoke;
+    background-color: #b78a72;  
+}
+.trending{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.trending img{
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+.trending h1{
+    position: relative;
+    bottom: 150px;
+    margin-left: 150px; 
+    color:rgb(255, 255, 255);
+}
+.trending button{
+    bottom: 120px;
+    margin-left: 180px; 
+    color: whitesmoke;
+    background-color: #b78a72; 
+}
+.trending button:hover{
+    background-color:lemonchiffon;
+}
+.line{
+    display: inline-block;
+    margin-left: 200px;
+}
+.line button{
+    margin-left: 1400px;
+    bottom: 30px;
+    border: 1px solid #333;
+    padding-right: 10px;
+}
+.line button:hover{
+    background-color: #b78a72;
+}
+.line hr {
+    margin-top: 30px;
+    border: none;
+    height: 2px;
+    background-color: #333; 
+    width: 1600px;
+  }
+  .collections{
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 190px;
+    height: 700px;
+    width: 400px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  .collections .images{
+    height: 300px;
+    width: 400px;
+    cursor: pointer;
+
+  }
+  .collections .images img{
+    height:500px;
+    width: 400px;
+  }
+  .collections h3{
+    position: relative;
+    margin-top: 230px;
+    margin-left: 10px;
+    color: gray;
+  }
+  .collections .stars{
+    position: relative;
+     margin-left: 240px;
+    bottom: 25px;
+    color:#b78a72;
+  }
+  .collections p{
+    margin-left: 10px;
+  }
+  .price{
+    position: relative;
+  }
+  .price h4{
+    position: relative;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .price h5{
+    position: relative;
+    margin-left: 125px;
+    font-size: 24px;
+    bottom: 32px;
+    color: gray;
+    text-decoration: line-through;
+  }
+  .price button{
+    position: relative;
+    margin-left: 260px;
+    bottom: 60px;
+    height: 25px;
+    width: auto;
+    background-color: #b78a72;
+    color: whitesmoke;
+  }
+  .price button:hover{
+    background-color: #b78a72;
+  }
+  .description{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 190px;
+    height: 700px;
+    width: 400px;
+    cursor: pointer;
+  }
+  .discriptions img{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 700px;
+    width: 500px;
+  }
+  .discriptions h2{
+    position: relative;
+   margin-left: 900px;
+   bottom: 700px;
+   font-size: 36px;
+   font-weight: 400;
+  }
+  .discriptions hr {
+    position: relative;
+    bottom: 680px;
+    border: none;
+    height: 2px;
+    background-color: #b78a72; 
+    width: 550px;
+    margin-left: 900px;
+  }
+  .discriptions .one{
+    position: relative;
+    bottom: 650px;
+    margin-left: 900px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+  }
+  .discriptions .head__one{
+    position: relative;
+    bottom: 630px;
+    margin-left: 900px;
+    font-size: 24px;
+  }
+  .discriptions .two{
+    position: relative;
+    bottom: 620px;
+    margin-left: 900px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+  }
+  .discriptions .head__two{
+    position: relative;
+    bottom: 600px;
+    margin-left: 900px;
+    font-size: 24px;
+  }
+  .discriptions .three{
+    position: relative;
+    bottom: 580px;
+    margin-left: 900px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+  }
+ .discriptions .btn{
+   position: relative;
+   bottom: 550px;
+   margin-left: 900px;
+   justify-content: space-between;
+   
+ }
+ .discriptions .btn_one{
+    height: 40px;
+    width: auto;
+    background-color: #b78a72;
+    color: whitesmoke;
+    font-size: 16px;
+ }
+ .discriptions .btn_one:hover{
+    background-color: #b78a72;
+ }
+ .discriptions .btn_1{
+    margin-left: 30px;
+    height: 40px;
+    width: auto;
+    border: 1px solid #b78a72;
+    color: #b78a72;
+ }
+ 

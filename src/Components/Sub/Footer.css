@@ -1,0 +1,132 @@
+.footer{
+    
+    height: 900px;
+    width: 100%;
+    background-color: #d9d9d9;
+    
+}
+.line__one hr{
+    position: relative;
+    border-style: dotted;
+    border-color: #b78a72;
+    border-width: 2px;
+    bottom: 180px;
+
+}
+ .footer .head > h1{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 650px;
+    font-size: 42px;
+    font-weight: 400;
+}
+.inputs  {
+    display: flex;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.inputs > input{
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid #000;
+    outline-width: 0;
+    border-radius: 10px;
+}
+.inputs button {
+    margin-left: 40px;
+    height: 50px;
+    width: 200px;
+    background-color: #b78a72;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.inputs button:hover{
+    background-color: #000;
+    color: whitesmoke;
+}
+.content__left{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.content__left p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.list__one{
+   margin-left: 850px;
+   margin-top: 200px;
+   position: absolute;
+}
+.list__one h4{
+    font-size: 20px;
+}
+.list__one ul{
+    margin-top: 25px;
+    margin-left: 13px;
+    list-style: none;
+    font-size: 18px;
+}
+.list__one ul li{
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+.list__one ul li:hover{
+    color: #b78a72;
+    font-size: 20px;
+}
+.list__two{
+    margin-left: 1100px;
+    margin-top: 200px;
+    position: absolute;
+ }
+ .list__two h4{
+    margin-left: 40px;
+     font-size: 20px;
+ }
+ .list__two ul{
+     margin-top: 25px;
+     margin-left: 13px;
+     list-style: none;
+     font-size: 18px;
+ }
+ 
+ .list__two ul li{
+     padding-bottom: 7px;
+     cursor: pointer;
+ }
+ .list__two ul li:hover{
+    color: #b78a72;
+    font-size: 20px;
+}
+.list__three{
+    margin-left: 1400px;
+    margin-top: 200px;
+    position: absolute;
+ }
+ .list__three h4{
+    margin-left: 40px;
+     font-size: 20px;
+ }
+ .list__three ul{
+     margin-top: 25px;
+     margin-left: 50px;
+     list-style: none;
+     font-size: 18px;
+ }
+ 
+ .list__three ul li{
+     padding-bottom: 7px;
+     cursor: pointer;
+ }
+ .list__three ul li:hover{
+    color: #b78a72;
+    font-size: 20px;
+}
+
+
