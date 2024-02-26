@@ -3,10 +3,29 @@ import './Content.css'
 import { Button } from '@mui/material'
 import ArrowRightAlt from '@mui/icons-material/ArrowRightAlt'
 import StarIcon from '@mui/icons-material/Star';
+import { useNavigate } from 'react-router-dom';
+
 
 
 
 function Content() {
+  const history=useNavigate();
+
+
+    function handleCheck() {
+        history('/Search')
+      }
+
+      function handleCheck__two(){
+        history('/Trending')
+
+      }
+      function handleCheck__three(){
+        history('/BestSeller')
+
+      }
+        
+
   return (
     <div className='content'>
         <div className="width">
@@ -27,13 +46,13 @@ function Content() {
         <div className="trending">
             <img src="https://www.a-rrajani.com/wp-content/uploads/2023/05/12.jpg" alt="" />
             <h1>New Arrival</h1>
-            <Button>Shop Now
+            <Button  onClick={handleCheck}>Shop Now
             </Button> 
         </div>
         <div className="trending">
             <img src="https://www.a-rrajani.com/wp-content/uploads/2021/10/7-copy.jpg" alt="" />
             <h1>TRENDING</h1>
-            <Button>Shop Now
+            <Button onClick={handleCheck__two}>Shop Now
             </Button> 
         </div>
 
@@ -41,7 +60,7 @@ function Content() {
         <div className="trending">
             <img src="https://5.imimg.com/data5/SELLER/Default/2023/6/317266686/UK/WS/EJ/189416308/modeling-photo-shoot-500x500.jpg" alt="" />
             <h1>BEST-SELLER</h1>
-            <Button>Shop Now
+            <Button onClick={handleCheck__three} >Shop Now
             </Button> 
         </div >
 
@@ -72,7 +91,9 @@ function Content() {
                     <div className="price">
                         <h4>RS 1500</h4>
                         <h5>RS 3599</h5>
-                        <Button>ADD TO CART
+                    </div>
+                    <div className="btn">
+                    <Button>ADD TO CART
                             <ArrowRightAlt/>
                         </Button>
                     </div>
@@ -95,7 +116,9 @@ function Content() {
                     <div className="price">
                         <h4>RS 800</h4>
                         <h5>RS 1599</h5>
-                        <Button>ADD TO CART
+                    </div>
+                    <div className="btn">
+                    <Button>ADD TO CART
                             <ArrowRightAlt/>
                         </Button>
                     </div>
@@ -117,7 +140,9 @@ function Content() {
                     <div className="price">
                         <h4>RS 2500</h4>
                         <h5>RS 6599</h5>
-                        <Button>ADD TO CART
+                    </div>
+                   <div className="btn">
+                    <Button>ADD TO CART
                             <ArrowRightAlt/>
                         </Button>
                     </div>

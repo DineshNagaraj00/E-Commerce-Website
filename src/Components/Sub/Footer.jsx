@@ -5,9 +5,6 @@ import { Button } from '@mui/material'
 function Footer() {
   return (
     <div className='footer'>
-        <div className="line__one">
-            <hr className='one' />
-        </div>
         <div className="head">
             <h1>Be the First to Know Fashion</h1>
         </div>

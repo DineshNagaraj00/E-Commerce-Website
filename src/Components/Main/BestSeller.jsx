@@ -1,13 +1,13 @@
 import React from 'react'
-import './Search.css'
+import './BestSeller.css'
 import StarIcon from '@mui/icons-material/Star';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import { Button } from '@mui/material';
 
-function Search() {
+function BestSeller() {
   return (
     <div className='products'>
-      <h1>New Arival</h1>
+      <h1>Best Seller</h1>
         <div className="items">
             <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9imBm1JkprAkeoMiqGkoHT0F65tVSkTLtJc3dB6KxvV8eXjQ1" alt="" />
             <h6>Echo Organza Mix Frill <br /> Strapless Midi Dress</h6>
@@ -307,4 +307,4 @@ function Search() {
   )
 }
 
-export default Search
+export default BestSeller
